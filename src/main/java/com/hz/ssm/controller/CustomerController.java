@@ -25,7 +25,7 @@ public class CustomerController {
 	public String addCustomerInfo(MultipartFile picFile,Customer customer,Model model) throws IllegalStateException, IOException{
 		System.out.println("=================");
 
-		System.out.println("--------------------------");
+		System.out.println("asdasdasd");
 	//得到上传文件名称
 		String filename = picFile.getOriginalFilename();
 		System.out.println("filename==="+filename);
