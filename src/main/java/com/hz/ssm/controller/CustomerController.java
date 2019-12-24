@@ -24,7 +24,9 @@ public class CustomerController {
 	@RequestMapping("/addCustomerInfo")
 	public String addCustomerInfo(MultipartFile picFile,Customer customer,Model model) throws IllegalStateException, IOException{
 		System.out.println("=================");
-		//得到上传文件名称
+
+		System.out.println("--------------------------");
+	//得到上传文件名称
 		String filename = picFile.getOriginalFilename();
 		System.out.println("filename==="+filename);
 		//处理文件重名的问题
